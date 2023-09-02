@@ -1,0 +1,23 @@
+name: VRS
+version: '${project.version}'
+main: net.vrs.VRS
+api-version: '1.20'
+authors: [Xperikss]
+description: VRS
+depend: [PlaceholderAPI, VK-API]
+
+commands:
+  getip:
+  alert:
+  ping:
+  gm:
+    aliases:
+      - gamemode
+      - mode
+  m:
+    aliases:
+      - me
+      - msg
+  setmyhome:
+    aliases:
+      - smh
